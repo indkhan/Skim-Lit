@@ -2,7 +2,7 @@ from spacy.lang.en import English
 import tensorflow as tf
 import streamlit as st
 
-st.title("Study Abstract Classifier")
+st.title("Research Abstract Classifier")
 st.markdown("""
         This app classifies study abstracts into different sections such as BACKGROUND, OBJECTIVE, METHODS, RESULTS, and CONCLUSIONS.
         Enter your study abstract in the text area below.
