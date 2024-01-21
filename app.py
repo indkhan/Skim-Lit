@@ -9,7 +9,7 @@ st.markdown("""
     """)
 
 abstext = st.text_area("Enter the study")
-
+st.link_button("Reserch Paper National Library of Medicine", "https://pubmed.ncbi.nlm.nih.gov/")
 def split_chars(text):
         return " ".join(list(text))
 
