@@ -7,9 +7,9 @@ st.markdown("""
         This app classifies study abstracts into different sections such as BACKGROUND, OBJECTIVE, METHODS, RESULTS, and CONCLUSIONS.
         Enter your study abstract in the text area below.
     """)
-
-abstext = st.text_area("Enter the study")
 st.link_button("Reserch Paper National Library of Medicine", "https://pubmed.ncbi.nlm.nih.gov/")
+abstext = st.text_area("Enter the study")
+
 def split_chars(text):
         return " ".join(list(text))
 
